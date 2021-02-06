@@ -1,8 +1,9 @@
 {
   "name": "js-api-cache",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "improve experience by caching api returns ",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

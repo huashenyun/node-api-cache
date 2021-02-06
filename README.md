@@ -41,4 +41,10 @@ async updateXxxx() {
 	...
     return xObjectOrId
 }  
+
+@cache({ maxAge: 300000, cacheName: 'Xxxx' })
+async deteleXxxx() {
+	...
+} 
+
 ```

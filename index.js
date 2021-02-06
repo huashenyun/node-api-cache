@@ -1,6 +1,21 @@
-import LRU from './lru-cache-enhance'
+'use strict'
 
-let debug = false // process.env.NODE_ENV !== 'production'
+import LRUCache from 'lru-cache'
+
+const ID = Symbol('id')
+class LRU extends LRUCache {
+  constructor(options) {
+    super(options)
+    this[ID] = options.id || ''
+  }
+
+  get id() {
+    return this[ID]
+  }
+}
+
+
+let debug = false
 
 const Cache = { }
 
