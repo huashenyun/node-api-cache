@@ -1,0 +1,27 @@
+{
+  "name": "js-api-cache",
+  "version": "1.0.0",
+  "description": "improve experience by caching api returns ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huashenyun/js-api-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "fast",
+    "loading"
+  ],
+  "author": "abc.liu",
+  "license": "MIT",
+  "dependencies": {
+    "lru-cache": "^6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/huashenyun/js-api-cache/issues"
+  },
+  "homepage": "https://github.com/huashenyun/js-api-cache#readme"
+}
