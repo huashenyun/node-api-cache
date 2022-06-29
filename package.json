@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huashenyun/js-api-cache.git"
+    "url": "git+https://github.com/liuqwert/js-api-cache.git"
   },
   "keywords": [
     "cache",
@@ -22,7 +22,7 @@
     "lru-cache": "^6.0.0"
   },
   "bugs": {
-    "url": "https://github.com/huashenyun/js-api-cache/issues"
+    "url": "https://github.com/liuqwert/js-api-cache/issues"
   },
-  "homepage": "https://github.com/huashenyun/js-api-cache#readme"
+  "homepage": "https://github.com/liuqwert/js-api-cache#readme"
 }
