@@ -25,16 +25,14 @@ export function setDebug(mode) {
 
 export function clearCache(cacheName = 'default') {
   const lru = Cache[cacheName]
-  if (debug) console.log('clear cache:', `${cacheName}[${lru.id}]`)
   if (lru) {
-    if (debug) console.log('clearCache', lru)
+    if (debug) console.log('clear cache:', `${cacheName}[${lru.id}]`)
     lru.reset()
   }
 }
 
 export function setCacheValue(k, v, cacheName = 'default') {
   const lru = Cache[cacheName]
-  if (debug) console.log('setCacheValue:', `${cacheName}[${lru.id}]`, k, v)
   if (lru) {
     lru.set(k, v, lru.maxAge)
   }
@@ -42,9 +40,8 @@ export function setCacheValue(k, v, cacheName = 'default') {
 
 export function delCacheKey(k, cacheName = 'default') {
   const lru = Cache[cacheName]
-  if (debug) console.log('delCacheKey:', `${cacheName}[${lru.id}]`, k)
   if (lru) {
-    if (debug) console.log('del', lru)
+    if (debug) console.log('delCacheKey:', `${cacheName}[${lru.id}]`, k)
     lru.del(k)
   }
 }
